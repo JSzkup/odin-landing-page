@@ -1,4 +1,40 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-section img {
+    height: auto;
+    width: 400px;
+}
+
+.information-section {
+    display: flex;
+}
+
+.info-box img {
+    height: 200px;
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+}
+
+.sign-up {
+    display: flex;
+}
+
+.footer {
+    display: flex;
 }
