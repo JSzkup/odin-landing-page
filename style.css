@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header {
@@ -9,8 +10,18 @@ body {
 
 }
 
+.header ul {
+    display: flex;
+}
+
 .hero-section {
     display: flex;
+    /* justify-content: center; */
+}
+
+.hero-text {
+    padding: 20px;
+    width: 500px;
 }
 
 .hero-section img {
@@ -20,6 +31,15 @@ body {
 
 .information-section {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+
 }
 
 .info-box img {
@@ -27,8 +47,12 @@ body {
     width: 200px;
 }
 
-.quote {
+.quote-section {
     display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up {
@@ -37,4 +61,13 @@ body {
 
 .footer {
     display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
 }
