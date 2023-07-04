@@ -7,16 +7,25 @@ body {
 
 .header {
     display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    width: 100vw;
 
 }
 
-.header ul {
+.logo {
+    padding: 15px;
+}
+
+.links {
     display: flex;
+    padding: 15px;
+    /* margin-left: auto; */
 }
 
 .hero-section {
     display: flex;
-    /* justify-content: center; */
+    padding: 20px;
 }
 
 .hero-text {
@@ -33,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .boxes {
@@ -53,14 +63,26 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px;
+}
+
+.quote-attr {
+    align-items: flex-end;
 }
 
 .sign-up {
     display: flex;
+    gap: 40px;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
     display: flex;
+    padding: 15px;
 }
 
 ul {
