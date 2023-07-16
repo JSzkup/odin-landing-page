@@ -37,11 +37,15 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    padding: 0;
+    margin: 0;
 }
 
 .hero-text p {
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
 }
 
 .hero-text button {
@@ -57,12 +61,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 75px;
+    padding: 60px;
 }
 
 .information-section h1 {
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 40px;
 }
 
 .information-section img {
@@ -127,6 +132,10 @@ body {
 p {
     margin: 0;
     padding: 0;
+}
+
+.sign-up-box p {
+    color: #E5E7EB;
 }
 
 .sign-up-section button {
