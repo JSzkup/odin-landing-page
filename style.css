@@ -9,6 +9,9 @@ body {
     justify-content: space-between;
     align-items: center;
     font: roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
 }
 
 .header {
@@ -124,16 +127,26 @@ body {
 
 .footer {
     display: flex;
-    flex: 1;
     padding: 15px 100%;
     background-color: #1F2937;
     color: white;
+    justify-content: center;
+}
+
+.footer p {
+    width: 260px;
+    flex: 1;
+}
+
+img {
+    flex: 0 1 auto;
 }
 
 button {
     border-radius: 4px;
     background-color: #3882F6;
     color: white;
+    padding: 5px 20px;
 }
 
 ul {
